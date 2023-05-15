@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha --recursive test/*.test.js"
   },
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kierans/request-yourself.git"
