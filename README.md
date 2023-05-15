@@ -8,7 +8,7 @@ Suitable for
 Often web applications need to generate a URL to point to themselves to give to client 
 applications. For example, in applications that use [OAuth 2.0][2] a `redirect_uri` is 
 required for the Authorisation Server to redirect the user back to the application. However, 
-if an application is fronted by gateway or load balancer the application needs to use the 
+if an application is fronted by a gateway or load balancer the application needs to use the 
 public facing address of the application, not the internal address for where the application 
 sits on the network.
 
