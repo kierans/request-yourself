@@ -1,0 +1,29 @@
+{
+  "name": "request-yourself",
+  "version": "1.0.0",
+  "description": "Middleware to add a property to a HTTP request with how the request was addressed",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kierans/request-yourself.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "proxy"
+  ],
+  "author": "Kieran Simpson <kierans777@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kierans/request-yourself/issues"
+  },
+  "homepage": "https://github.com/kierans/request-yourself#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "hamjest": "^4.0.1",
+    "mocha": "^10.2.0"
+  }
+}
